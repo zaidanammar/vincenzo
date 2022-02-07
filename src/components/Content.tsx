@@ -7,9 +7,9 @@ import Navbar from "../components/Navbar";
 
 function Content() {
   return (
-    <main className="flex-auto overflow-auto">
+    <main className="flex-auto overflow-auto w-full">
       <Navbar />
-      <div className="px-8 py-5">
+      <div className="md:px-8 md:py-5">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
