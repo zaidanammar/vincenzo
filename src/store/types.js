@@ -1,0 +1,4 @@
+export const GET_TOP_TRACK = "GET_TOP_TRACK";
+export const GET_SEARCH_TRACK = "GET_SEARCH_TRACK";
+export const CHANGE_SEARCH_VALUE = "CHANGE_SEARCH_VALUE";
+export const GET_TOP_ARTIST = "GET_TOP_ARTIST";
